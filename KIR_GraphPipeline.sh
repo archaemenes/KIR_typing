@@ -23,10 +23,10 @@ cd $WORKDIR
 
 #conda activate KIR_typing
 
-git clone https://github.com/linnil1/KIR_graph
-cd KIR_graph
-pip install .
-graphkir --help
+#git clone https://github.com/linnil1/KIR_graph
+#cd KIR_graph
+#pip install .
+#graphkir --help
 
 graphkir --thread $THREADS \
 --r1 $READ1 \
