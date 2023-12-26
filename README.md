@@ -30,7 +30,7 @@ Make sure to set the environmental variables as given in the scripts:
     READ2='/pathTo/NK-WGL_R2_val_2.fq.gz'
     THREADS=16
 
-For the KIR_GraphPipeline.sh for KIR_graph requires to run the following scripts and set the environmental variables:
+For the **KIR_GraphPipeline.sh for KIR_graph** requires to run the following scripts and set the environmental variables:
 
     cd $WORKDIR
 
