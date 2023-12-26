@@ -59,10 +59,12 @@ Run `bash expression.sh` with results in `${OUTDIR}/${OUT_PREFIX}_onlyKIRs_Norma
 
 ## Analysing results 
 **For KIR_graph**
-To find the nucleic acid sequences of the allele variants  obtained from the analysis:   `find  ~/  -name  "KIR_v*"` 
+To find the nucleic acid sequences of the allele variants  obtained from the analysis:   
+`find  ~/  -name  "KIR_v*"` 
 
 Copy number results: `cat ${OUTDIR}/${OUT_PREFIX}.cn.tsv`
-Allele level typing results:  `cat ${OUTDIR}/${OUT_PREFIX}.allele.tsv`
+
+Allele level typing results: `cat ${OUTDIR}/${OUT_PREFIX}.allele.tsv`
 
 **For KPI**
 Haplotype level typing: `cat ${OUTDIR}/Knew_prediction.txt`
