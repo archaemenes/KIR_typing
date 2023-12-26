@@ -18,10 +18,6 @@ GENES_BED='/pathTo/genes.bed'
 READ2RAW='/pathTo/NK-TL_R2.fastq.gz'
 READ1RAW='/pathTo/NK-TL_R1.fastq.gz'
 
-
-
-
-
 # setting the desired work directory
 WORKDIR='/pathToWorkDIR/'
 cd $WORKDIR
