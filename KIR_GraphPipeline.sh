@@ -9,19 +9,19 @@ THREADS=16
 
 cd $WORKDIR
 
-wget -c https://github.com/rcedgar/muscle/releases/download/5.1.0/muscle5.1.linux_intel64
-mv muscle5.1.linux_intel64 muscle
-echo "alias muscle=${WORKDIR}/muscle" >> ~/.bashrc
-source ~/.bashrc
+#wget -c https://github.com/rcedgar/muscle/releases/download/5.1.0/muscle5.1.linux_intel64
+#mv muscle5.1.linux_intel64 muscle
+#echo "alias muscle=${WORKDIR}/muscle" >> ~/.bashrc
+#source ~/.bashrc
 
-conda create -n KIR_typing python==3.12
-conda install -c "bioconda/label/cf201901" hisat2 -n KIR_typing
-conda install -c bioconda samtools -n KIR_typing
-conda install -c bioconda bwa -n KIR_typing
-conda install -c conda-forge docker -n KIR_typing
-conda install -c anaconda git -n KIR_typing
+#conda create -n KIR_typing python==3.12
+#conda install -c "bioconda/label/cf201901" hisat2 -n KIR_typing
+#conda install -c bioconda samtools -n KIR_typing
+#conda install -c bioconda bwa -n KIR_typing
+#conda install -c conda-forge docker -n KIR_typing
+#conda install -c anaconda git -n KIR_typing
 
-conda activate KIR_typing
+#conda activate KIR_typing
 
 git clone https://github.com/linnil1/KIR_graph
 cd KIR_graph
